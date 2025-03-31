@@ -7,8 +7,7 @@ from typing import Optional, List
 
 class OptionsDataFetcher:
     """
-    A class to fetch and wrangle options data from Alpha Vantage for a given ticker,
-    designed for institutional use.
+    A class to fetch and wrangle options data from Alpha Vantage for a given ticker.
     """
     BASE_URL = "https://www.alphavantage.co/query"
 
